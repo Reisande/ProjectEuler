@@ -6,6 +6,8 @@ I'll write notes into this readme for all Project Euler Solutions to explain the
 
 I will add these explanations in the order I come up with them.
 
+Any new solutions will be posted Sunday before midnight
+
 --Project Euler 1--
 
 --Project Euler 2--
