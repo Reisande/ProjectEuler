@@ -5,6 +5,6 @@ def is_prime(x):
             if x % y == 0:
                 return False
     print(i)
-for i in range(1, z):
+for i in range(1, int(z ** 2) + 1:
     if z % i == 0:
         is_prime(i)
