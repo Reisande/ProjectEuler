@@ -32,7 +32,7 @@ Once again, not a very complex solution. I turned the number into a list to gene
 
 --Project Euler 7--
 
-
+See "Sieve of Eratosthenes"
 
 --Project Euler 8--
 
@@ -66,8 +66,12 @@ Once again, not a very complex solution. I turned the number into a list to gene
 
 Probably the most complex solution I have made so far. Once again, figuring out A solution wasn't particuarly hard, but I wanted to make a solution which would easily work for any input. I know that this program can be slimmed a bit by merging the two functions which generate original triples into one, single, triple generating function, and then in all instances where I use another function(like the populate list function) I could use the single triple creator. Also, this would take out the need of a populate list function, but I feel as though the seperation of the two algorithms for generating triples is useful for readability. Also, I don't see this saving me too many LOC. Also, I could just have a function which checks the output of the triples generators if their outputs(or their multiples) would equal the user inpput(in the case of project Euler question 9, 1000). This was my original plan, but proved to be very difficult to check. However, a list was very easy to check for functionality of the Stifel and Onazam algorithms, so it was simpler for me to just use a list. If the input was larger, I can see the necessity of these changes, but with the required input, my solution works in under a second.
 
+--Project Euler 21--
+
+This was a pretty simple solution. I was somewhat confused in my first attempt, but I realized that the question didn't consider perfect numbers to be amicable. I used two functions, one for amicability and to check for divisbility. This was mainly to aid in readability of the program, but two functions had the added benefit of making debugging easier. My reasoning for the loop was if a number was perfect, you could go through the function to sum the divisors twice in order to find the original number. I could increase efficiency by just adding the second half of couple to the amicable number list, instead of making the loop iterate through every number in the necessary range. However, I felt as though this would make no practical difference to computation time as my current solution takes less than a second to run. 
+
 --ELSE-------------
 
 Sieve of Eratosthenes
 
-Not a very complex piece of code, but one which was enjoyable for me to write. I looked on a Project Euler forum, and it was suggested to look up the Sieve as it was immensely useful to find primality. This was not wrong whatsoever. Funnily enough, I came up wth something very similar when I was in math class when I was in middle school. Whenever I was bored in class I liked write out sequences of numbers, one of these sequences was primes.. I generated these by hand, and my method was almost identical to the sieve, except I didn't think to check all potential factors up until the square root of the number I was checking for primality. Normally I just checked for the smaller potential factors(2, 3, ... 17).
+Not a very complex piece of code, but one which was enjoyable for me to write. I looked on a Project Euler forum, and it was suggested to look up the Sieve as it was immensely useful to find primality. This was not wrong whatsoever. Funnily enough, I came up wth something very similar when I was in math class when I was in middle school. Whenever I was bored in class I liked write out sequences of numbers, one of these sequences was primes.. I generated these by hand, and my method was almost identical to the sieve, except I didn't think to check all potential factors up until the square root of the number I was checking for primality. Normally I just checked for the smaller potential factors(2, 3, ... 17). My Answer for Number seven isn't present in the repository because I just modified my sieve to solve 7
