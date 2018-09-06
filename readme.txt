@@ -70,6 +70,10 @@ Probably the most complex solution I have made so far. Once again, figuring out 
 
 This was a pretty simple solution. I was somewhat confused in my first attempt, but I realized that the question didn't consider perfect numbers to be amicable. I used two functions, one for amicability and to check for divisbility. This was mainly to aid in readability of the program, but two functions had the added benefit of making debugging easier. My reasoning for the loop was if a number was perfect, you could go through the function to sum the divisors twice in order to find the original number. I could increase efficiency by just adding the second half of couple to the amicable number list, instead of making the loop iterate through every number in the necessary range. However, I felt as though this would make no practical difference to computation time as my current solution takes less than a second to run. 
 
+--Project Euler 15--
+
+Not a very complex solution. I wrote out a few lattice paths to figure out if there was any pattern to how the sum of possibilities for lattice paths formed, and realized I could it was a basic combinatoric equation. Originally I didn't even program the solution, I just looked on WolframAlpha 40 Choose 20. I decided to write out a solution afterwords simply for the practice.
+
 --ELSE-------------
 
 Sieve of Eratosthenes
