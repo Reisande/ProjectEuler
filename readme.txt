@@ -12,7 +12,7 @@ Not a very complex solution. I satred out with just a for loop and a list, but I
 
 --Project Euler 2--
 
-This is kimd of a funny problem to me. I misunderstood the wording originally; I thought that the question was asking for the sum of the first 2 million terms of the Fibonacci Sequence, and became frustrated with the length of my computation rather quickly. I worked on the problem for 4 hours wondering how I could optimize the solution, but I realized when I started to work on the problem a day later that is was asking for terms whose value were less than 2 million, not the first 2 million terms.
+This is kind of a funny problem to me. I misunderstood the wording originally; I thought that the question was asking for the sum of the first 2 million terms of the Fibonacci Sequence, and became frustrated with the length of my computation rather quickly. I worked on the problem for 4 hours wondering how I could optimize the solution, but I realized when I started to work on the problem a day later that is was asking for terms whose value were less than 2 million, not the first 2 million terms.
 
 --Project Euler 3--
 
