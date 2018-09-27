@@ -74,6 +74,10 @@ This was a pretty simple solution. I was somewhat confused in my first attempt, 
 
 Not a very complex solution. I wrote out a few lattice paths to figure out if there was any pattern to how the sum of possibilities for lattice paths formed, and realized I could it was a basic combinatoric equation. Originally I didn't even program the solution, I just looked on WolframAlpha 40 Choose 20. I decided to write out a solution afterwords simply for the practice.
 
+--Project Euler 18--
+
+Again, not a very complex solution. The algorithm I used worked by finding the larger of the two child nodes for each parent row in the range (0, n-1), in a triangle with number of rows n. For the larger child node, the parent node was replaced by the parent node + the child node, and this process was completed until the largest node remained in the 0th column. The time complexity for this algorithm is 0(nlogn)
+
 --ELSE-------------
 
 Sieve of Eratosthenes
